@@ -1,4 +1,6 @@
-public static void main(String[] args) {
+
+public class exercise {
+    public static void main(String[] args) {
 
 
         //Write a method that would replace every vowel in the string with X.
@@ -8,3 +10,4 @@ public static void main(String[] args) {
         input = input.replaceAll("[e,o,u]", "X");
         System.out.println(input);
     }
+}
